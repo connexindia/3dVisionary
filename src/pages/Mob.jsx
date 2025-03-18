@@ -6,6 +6,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { PiFacebookLogoDuotone } from "react-icons/pi";
 import { PiYoutubeLogo } from "react-icons/pi";
 import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Mob = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -40,11 +41,11 @@ const Mob = () => {
                         className='fixed left-0 right-0 top-16 overflow-y-auto h-full bg-[#18181A] text-white p-6 cursor-grab'
                     >
                         <ul>
-                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><a href="/">Home</a></li>
-                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><a href="/architects">Architects</a></li>
-                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><a href="/real-estate">Real Estate</a></li>
-                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><a href="/manufacturing">Manufacturing</a></li>
-                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><a href="/contact">Contact</a></li>
+                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><Link to="/">Home</Link></li>
+                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><Link to="/architects">Architects</Link></li>
+                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><Link to="/real-estate">Real Estate</Link></li>
+                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><Link to="/manufacturing">Manufacturing</Link></li>
+                            <li className='p-4 hover:bg-white/5 rounded-md cursor-pointer font-bold' onClick={toggleDrawer}><Link to="/contact">Contact</Link></li>
                         </ul>
                         <span className='block w-full h-[2px] bg-gray-600 mt-6'></span>
 
