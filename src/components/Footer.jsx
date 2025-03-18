@@ -13,11 +13,11 @@ export default function Footer() {
           </div>
 
           {/* Middle Section - Quick Links */}
-          <div className="flex space-x-6">
+          <div className="flex md:space-x-6 space-x-5">
             <Link to="/" className="text-gray-300 hover:text-white">Home</Link>
             <Link to="/contact" className="text-gray-300 hover:text-white">Contact</Link>
             <Link to="/manufacturing" className="text-gray-300 hover:text-white">Manufacturing</Link>
-            <Link to="/real-estate" className="text-gray-300 hover:text-white">Real Estate</Link>
+            <Link to="/real-estate" className="text-gray-300 hover:text-white ">Real Estate</Link>
           </div>
 
           {/* Right Section - Social Icons */}

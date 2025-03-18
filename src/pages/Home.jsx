@@ -17,14 +17,13 @@ export default function Home() {
   }, []);
 
   return (
-    <Layout>
-      {/* Hero Section */}
-      <div className="relative w-auto overflow-hidden">
+    <>
+      <div className="relative w-auto overflow-hidden pt-15 md:pt-0">
         <motion.img
           key={currentIndex}
           src={images[currentIndex]}
           alt="Company Banner"
-          className="w-full h-[80vh]"
+          className="w-full md:h-[80vh] h-[60vh]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -45,6 +44,6 @@ export default function Home() {
         </p>
       </div>
       <Footer />
-    </Layout>
+      </>
   );
 }

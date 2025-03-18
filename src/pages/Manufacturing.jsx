@@ -24,8 +24,8 @@ const products = [
 
 export default function Manufacturing() {
   return (
-    <Layout>
-      <div className="container mx-auto px-4 py-12">
+    <>
+      <div className="container mx-auto px-4 py-12 pt-20 md:pt-0">
         <h1 className="text-4xl font-bold mb-8">Our Manufacturing Solutions</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product) => (
@@ -40,6 +40,6 @@ export default function Manufacturing() {
         </div>
       </div>
       <Footer/>
-    </Layout>
+    </>
   )
 }
