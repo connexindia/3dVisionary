@@ -15,10 +15,10 @@ const properties = [
   },
   {
     id: 2,
-    image: "/realestate1.jpg",
-    name: "Luxury Apartment",
+    image: "/realistate2.jpg",
+    name: "Rahul Chaudhary",
     description:
-      "Modern 3-bedroom apartment with stunning city views. Designed with contemporary aesthetics and comfort in mind, this apartment is perfect for urban professionals or small families. It offers easy access to transportation and shopping hubs.",
+      "Director - Neevilas Homes",
     viewMoreLink: "#property-2",
   },
   {
